@@ -18,6 +18,9 @@
  **/
 
 #include "PSync/consumer.hpp"
+
+#ifndef PSYNC_LITE
+
 #include "PSync/detail/state.hpp"
 
 #include <ndn-cxx/util/logger.hpp>
@@ -249,3 +252,4 @@ Consumer::onSyncData(const ndn::ConstBufferPtr& bufferPtr)
 }
 
 } // namespace psync
+#endif

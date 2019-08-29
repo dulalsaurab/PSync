@@ -20,6 +20,10 @@
 #ifndef PSYNC_PARTIAL_PRODUCER_HPP
 #define PSYNC_PARTIAL_PRODUCER_HPP
 
+#include "PSync/detail/access-specifiers.hpp"
+
+#ifndef PSYNC_LITE
+
 #include "PSync/detail/bloom-filter.hpp"
 #include "PSync/producer-base.hpp"
 
@@ -125,3 +129,4 @@ PSYNC_PUBLIC_WITH_TESTS_ELSE_PRIVATE:
 } // namespace psync
 
 #endif // PSYNC_PARTIAL_PRODUCER_HPP
+#endif
