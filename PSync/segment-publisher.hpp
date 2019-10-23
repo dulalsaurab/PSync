@@ -17,12 +17,12 @@
  * PSync, e.g., in COPYING.md file.  If not, see <http://www.gnu.org/licenses/>.
  **/
 
-#ifndef PSYNC_LITE
-
 #ifndef PSYNC_SEGMENT_PUBLISHER_HPP
 #define PSYNC_SEGMENT_PUBLISHER_HPP
 
 #include "PSync/detail/access-specifiers.hpp"
+
+#ifndef PSYNC_LITE
 
 #include <ndn-cxx/face.hpp>
 #include <ndn-cxx/name.hpp>

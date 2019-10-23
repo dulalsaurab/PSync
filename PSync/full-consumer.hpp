@@ -24,7 +24,6 @@
 
 #ifdef PSYNC_LITE
 
-#include "PSync/detail/bloom-filter.hpp"
 #include "PSync/detail/util.hpp"
 
 #include <ndn-cxx/face.hpp>
