@@ -17,6 +17,8 @@
  * PSync, e.g., in COPYING.md file.  If not, see <http://www.gnu.org/licenses/>.
  **/
 
+#ifndef PSYNC_LITE
+
 #include "PSync/segment-publisher.hpp"
 
 #include <ndn-cxx/name-component.hpp>
@@ -101,3 +103,4 @@ SegmentPublisher::replyFromStore(const ndn::Name& interestName)
 }
 
 } // namespace psync
+#endif

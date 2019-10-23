@@ -19,6 +19,8 @@
 
 #include "PSync/producer-base.hpp"
 
+#ifndef PSYNC_LITE
+
 #include <ndn-cxx/util/logger.hpp>
 #include <boost/algorithm/string.hpp>
 
@@ -148,3 +150,4 @@ ProducerBase::onRegisterFailed(const ndn::Name& prefix, const std::string& msg) 
 }
 
 } // namespace psync
+#endif

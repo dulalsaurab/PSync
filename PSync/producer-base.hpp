@@ -21,6 +21,9 @@
 #define PSYNC_PRODUCER_BASE_HPP
 
 #include "PSync/detail/access-specifiers.hpp"
+
+#ifndef PSYNC_LITE
+
 #include "PSync/detail/bloom-filter.hpp"
 #include "PSync/detail/iblt.hpp"
 #include "PSync/detail/util.hpp"
@@ -187,3 +190,4 @@ PSYNC_PUBLIC_WITH_TESTS_ELSE_PROTECTED:
 } // namespace psync
 
 #endif // PSYNC_PRODUCER_BASE_HPP
+#endif

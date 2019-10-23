@@ -19,6 +19,8 @@
 
 #include "PSync/full-producer.hpp"
 
+#ifndef PSYNC_LITE
+
 #include <ndn-cxx/util/logger.hpp>
 #include <ndn-cxx/util/segment-fetcher.hpp>
 #include <ndn-cxx/security/validator-null.hpp>
@@ -350,3 +352,4 @@ FullProducer::deletePendingInterests(const ndn::Name& interestName)
 }
 
 } // namespace psync
+#endif

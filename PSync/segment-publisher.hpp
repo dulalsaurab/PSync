@@ -17,6 +17,8 @@
  * PSync, e.g., in COPYING.md file.  If not, see <http://www.gnu.org/licenses/>.
  **/
 
+#ifndef PSYNC_LITE
+
 #ifndef PSYNC_SEGMENT_PUBLISHER_HPP
 #define PSYNC_SEGMENT_PUBLISHER_HPP
 
@@ -78,3 +80,4 @@ PSYNC_PUBLIC_WITH_TESTS_ELSE_PRIVATE:
 } // namespace psync
 
 #endif // PSYNC_SEGMENT_PUBLISHER_HPP
+#endif

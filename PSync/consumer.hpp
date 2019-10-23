@@ -21,6 +21,9 @@
 #define PSYNC_CONSUMER_HPP
 
 #include "PSync/detail/access-specifiers.hpp"
+
+#ifndef PSYNC_LITE
+
 #include "PSync/detail/bloom-filter.hpp"
 #include "PSync/detail/util.hpp"
 
@@ -202,3 +205,4 @@ PSYNC_PUBLIC_WITH_TESTS_ELSE_PRIVATE:
 } // namespace psync
 
 #endif // PSYNC_CONSUMER_HPP
+#endif

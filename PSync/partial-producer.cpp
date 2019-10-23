@@ -18,6 +18,9 @@
  **/
 
 #include "PSync/partial-producer.hpp"
+
+#ifndef PSYNC_LITE
+
 #include "PSync/detail/state.hpp"
 
 #include <ndn-cxx/util/logger.hpp>
@@ -250,3 +253,4 @@ PartialProducer::satisfyPendingSyncInterests(const ndn::Name& prefix) {
 }
 
 } // namespace psync
+#endif

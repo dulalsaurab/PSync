@@ -20,6 +20,10 @@
 #ifndef PSYNC_FULL_PRODUCER_HPP
 #define PSYNC_FULL_PRODUCER_HPP
 
+#include "PSync/detail/access-specifiers.hpp"
+
+#ifndef PSYNC_LITE
+
 #include "PSync/producer-base.hpp"
 #include "PSync/detail/state.hpp"
 
@@ -196,3 +200,4 @@ private:
 } // namespace psync
 
 #endif // PSYNC_FULL_PRODUCER_HPP
+#endif
