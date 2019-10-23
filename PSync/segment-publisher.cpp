@@ -17,9 +17,9 @@
  * PSync, e.g., in COPYING.md file.  If not, see <http://www.gnu.org/licenses/>.
  **/
 
-#ifndef PSYNC_LITE
-
 #include "PSync/segment-publisher.hpp"
+
+#ifndef PSYNC_LITE
 
 #include <ndn-cxx/name-component.hpp>
 

@@ -46,6 +46,10 @@
 #ifndef PSYNC_BLOOM_FILTER_HPP
 #define PSYNC_BLOOM_FILTER_HPP
 
+#include "PSync/detail/access-specifiers.hpp"
+
+#ifndef PSYNC_LITE
+
 #include <ndn-cxx/name.hpp>
 
 #include <string>
@@ -178,3 +182,4 @@ operator<<(std::ostream& out, const BloomFilter& bf);
 } // namespace psync
 
 #endif // PSYNC_BLOOM_FILTER_HPP
+#endif

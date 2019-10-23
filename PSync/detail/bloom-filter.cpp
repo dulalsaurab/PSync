@@ -44,6 +44,9 @@
 */
 
 #include "PSync/detail/bloom-filter.hpp"
+
+#ifndef PSYNC_LITE
+
 #include "PSync/detail/util.hpp"
 
 #include <ndn-cxx/util/logger.hpp>
@@ -347,3 +350,4 @@ operator<<(std::ostream& out, const BloomFilter& bf)
 }
 
 } // namespace psync
+#endif
