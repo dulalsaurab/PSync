@@ -17,4 +17,3 @@ All other sync interest from the device will contain IBF received from the produ
 
 ![aa](https://lh4.googleusercontent.com/qOgHWcNy-YyUwHPYTmtUP--rk7DHCSkh8StfEzRhBkPgZP-RqTt5FUSbgZjcZOvQuoGItRepyU3Je-wpwFc6oRYeDVwgvZO_0DudwzpBis1FDrq5DYqlBJTBbsD7BC65AqbX9q0S)
 
-Comments and suggestions are most welcome
